@@ -70,7 +70,7 @@ task default: [:rubocop, :spec, :localer]
 
 Localer supports
 * Ruby: 3.0
-* Rails: 5.0, 5.1, 5.2, 6.0, 6.1
+* Rails: 6.1
 
 ## Configuration
 
