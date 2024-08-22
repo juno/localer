@@ -106,11 +106,13 @@ ru:
           tb: ТБ
           pb: ""
           eb: ""
+          zb: ""
 
     currency:
       format:
         delimiter: " "
         format: "%n %u"
+        negative_format: "-%u%n"
         precision: 2
         separator: ","
         significant: false

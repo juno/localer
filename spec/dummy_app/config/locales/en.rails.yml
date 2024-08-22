@@ -112,6 +112,7 @@ en:
       format:
         # Where is the currency sign? %u is the currency unit, %n the number (default: $5.00)
         format: "%u%n"
+        negative_format: "-%u%n"
         unit: "$"
         # These five are to override number.format and are optional
         separator: "."
@@ -165,6 +166,7 @@ en:
           tb: "TB"
           pb: "PB"
           eb: "EB"
+          zb: "ZB"
       # Used in NumberHelper.number_to_human()
       decimal_units:
         format: "%n %u"
